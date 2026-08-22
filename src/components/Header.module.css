@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+
+.header {
+    background-color: #cfcc8c;
+    padding: 15px 40px;
+    text-align: center;
+    font-family: "Miniver", sans-serif;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 18px 40px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2em;
+    color: #091a02;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 500px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav a:hover {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+}
