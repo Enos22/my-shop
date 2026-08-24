@@ -1,5 +1,5 @@
 //creates a variable that stores the API URL for the backend server
-const API_URL = "http://localhost:4000";
+const API_URL = "http://localhost:4000" || 'my-shop/db.json'
 
 //create a resusable  that sends requests to the backend server and returns the response data
 async function request(path, options = {}) {
