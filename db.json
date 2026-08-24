@@ -1,0 +1,245 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Fresh Tomatoes",
+      "category": "vegetables",
+      "price": 120,
+      "details": "Fresh ripe tomatoes suitable for cooking, salads, and sauces.",
+      "image": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337"
+    },
+    {
+      "id": "2",
+      "name": "Red Onions",
+      "category": "vegetables",
+      "price": 150,
+      "details": "Fresh red onions with a rich flavor, perfect for cooking and salads.",
+      "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb"
+    },
+    {
+      "id": "3",
+      "name": "Carrots",
+      "category": "vegetables",
+      "price": 100,
+      "details": "Fresh crunchy carrots, great for salads, soups, and cooking.",
+      "image": "https://images.unsplash.com/photo-1445282768818-728615cc910a"
+    },
+    {
+      "id": "4",
+      "name": "Potatoes",
+      "category": "vegetables",
+      "price": 180,
+      "details": "Quality potatoes suitable for frying, boiling, baking, and cooking.",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655"
+    },
+    {
+      "id": "5",
+      "name": "Fresh Spinach",
+      "category": "vegetables",
+      "price": 80,
+      "details": "Fresh leafy spinach packed with nutrients and ideal for healthy meals.",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb"
+    },
+    {
+      "id": "6",
+      "name": "Bananas",
+      "category": "fruits",
+      "price": 150,
+      "details": "Fresh ripe bananas, naturally sweet and perfect for snacks or breakfast.",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e"
+    },
+    {
+      "id": "7",
+      "name": "Red Apples",
+      "category": "fruits",
+      "price": 250,
+      "details": "Crisp and juicy red apples, ideal for snacks and healthy meals.",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6"
+    },
+    {
+      "id": "8",
+      "name": "Oranges",
+      "category": "fruits",
+      "price": 200,
+      "details": "Juicy fresh oranges with a refreshing citrus flavor.",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e"
+    },
+    {
+      "id": "9",
+      "name": "Fresh Mangoes",
+      "category": "fruits",
+      "price": 220,
+      "details": "Sweet and juicy mangoes, perfect for eating fresh or making juice.",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078"
+    },
+    {
+      "id": "10",
+      "name": "Avocados",
+      "category": "fruits",
+      "price": 180,
+      "details": "Creamy fresh avocados suitable for salads, sandwiches, and breakfast.",
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578"
+    },
+    {
+      "id": "11",
+      "name": "White Bread",
+      "category": "bakery",
+      "price": 80,
+      "details": "Soft and fresh sliced white bread, perfect for breakfast and sandwiches.",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+    },
+    {
+      "id": "12",
+      "name": "Whole Wheat Bread",
+      "category": "bakery",
+      "price": 100,
+      "details": "Nutritious whole wheat bread made for a healthy and filling meal.",
+      "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+    },
+    {
+      "id": "13",
+      "name": "Fresh Milk",
+      "category": "dairy",
+      "price": 120,
+      "details": "Fresh pasteurized milk suitable for drinking, tea, coffee, and cooking.",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150"
+    },
+    {
+      "id": "14",
+      "name": "Yogurt",
+      "category": "dairy",
+      "price": 150,
+      "details": "Creamy and delicious yogurt, perfect for breakfast and snacks.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777"
+    },
+    {
+      "id": "15",
+      "name": "Cheddar Cheese",
+      "category": "dairy",
+      "price": 450,
+      "details": "Rich and flavorful cheddar cheese suitable for sandwiches and cooking.",
+      "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+    },
+    {
+      "id": "16",
+      "name": "Farm Fresh Eggs",
+      "category": "dairy",
+      "price": 250,
+      "details": "Fresh quality eggs suitable for breakfast, baking, and cooking.",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f"
+    },
+    {
+      "id": "17",
+      "name": "White Rice",
+      "category": "grains",
+      "price": 250,
+      "details": "High-quality white rice that cooks easily and pairs well with many meals.",
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6"
+    },
+    {
+      "id": "18",
+      "name": "Spaghetti",
+      "category": "pasta",
+      "price": 180,
+      "details": "Quality spaghetti pasta that is easy to prepare and perfect with sauces.",
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0"
+    },
+    {
+      "id": "19",
+      "name": "Corn Flakes",
+      "category": "breakfast",
+      "price": 350,
+      "details": "Crunchy corn flakes perfect for a quick and nutritious breakfast.",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "20",
+      "name": "Oats",
+      "category": "breakfast",
+      "price": 300,
+      "details": "Healthy whole-grain oats ideal for making a nutritious breakfast.",
+      "image": "https://images.unsplash.com/photo-1517673400267-0251440c45dc"
+    },
+    {
+      "id": "21",
+      "name": "Cooking Oil",
+      "category": "cooking essentials",
+      "price": 650,
+      "details": "Quality cooking oil suitable for frying, baking, and everyday cooking.",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5"
+    },
+    {
+      "id": "22",
+      "name": "White Sugar",
+      "category": "cooking essentials",
+      "price": 180,
+      "details": "Fine granulated white sugar for tea, baking, and everyday cooking.",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVRt4bApBpWE4H6lnSxWj88SKUj-DDxhcs2bajY5isaIgSeU6GiJcsMsxhhaDC_G7wujdLP4uRUwQ2yybKhNygb8fR0myQT-IhaHN-A29IKXVJzGn09vqcMhaPvfn3pA&usqp=CAc"
+    },
+    {
+      "id": "23",
+      "name": "Table Salt",
+      "category": "cooking essentials",
+      "price": 160,
+      "details": "Fine table salt for seasoning and enhancing the flavor of meals.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aXGizSgtJcahlvMPkvslJnj0v0H-DKHGj0bQbm4mPg&s=10"
+    },
+    {
+      "id": "24",
+      "name": "Ground Coffee",
+      "category": "beverages",
+      "price": 450,
+      "details": "Rich aromatic ground coffee for a refreshing cup at any time of day.",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+    },
+    {
+      "id": "25",
+      "name": "Black Tea",
+      "category": "beverages",
+      "price": 300,
+      "details": "Refreshing black tea bags suitable for making a warm cup of tea.",
+      "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9"
+    },
+    {
+      "id": "26",
+      "name": "Orange Juice",
+      "category": "beverages",
+      "price": 250,
+      "details": "Refreshing orange juice made with a delicious citrus flavor.",
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba"
+    },
+    {
+      "id": "27",
+      "name": "Peanut Butter",
+      "category": "spreads",
+      "price": 400,
+      "details": "Creamy peanut butter, perfect for bread, toast, snacks, and smoothies.",
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e"
+    },
+    {
+      "id": "28",
+      "name": "Honey",
+      "category": "spreads",
+      "price": 550,
+      "details": "Natural sweet honey suitable for tea, breakfast, baking, and desserts.",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38"
+    },
+    {
+      "name": "Garlic",
+      "category": "Vegetable",
+      "price": 150,
+      "details": "Garlic is an underground bulb plant known for its pungent aroma and widespread culinary and medicinal uses",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruGobid3CntHYxOGA0zfOXjHCkaHNNUtaQtiqZ8NxFg&s",
+      "id": "78_bddOCnvI"
+    },
+    {
+      "name": "Mutton",
+      "category": "Butcher",
+      "price": 700,
+      "details": " Mutton has a strong, deep, and earthy flavor with a firm, dense texture due to fatty acids that build up over the animal's life.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyeXCYakVPoSej3szs3FBWXMBxHEa3hhskj_rhjMjKcg&s=10",
+      "id": "FcJeq7Z61UE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
