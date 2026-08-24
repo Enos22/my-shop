@@ -1,0 +1,116 @@
+/* Main cart container */
+.cart {
+    width: 100%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Cart heading */
+.title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Cart table */
+.cartTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table heading */
+.cartTable th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table cells */
+.cartTable td {
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product image */
+.image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product name */
+.productName {
+    font-weight: 600;
+}
+
+/* Quantity */
+.quantity {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Unit price */
+.unitPrice {
+    font-weight: 500;
+}
+
+/* Item total price */
+.itemTotal {
+    font-weight: 700;
+}
+
+/* Remove button */
+.removeButton {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+/* Cart summary */
+.summary {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+/* Total price */
+.total {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* Checkout button */
+.checkoutButton {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    background-color: #27ae60;
+}
+
+/* Empty cart */
+.emptyCart {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    .cart {
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .cartTable {
+        min-width: 750px;
+    }
+}
