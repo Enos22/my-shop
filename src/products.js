@@ -1,8 +1,19 @@
 //creates a variable that stores the API URL for the backend server
-const API_URL = "http://localhost:4000" || 'my-shop/db.json'
+const IS_PROD =     import.meta.env.PROD;
+const API_URL = IS_PROD ? 'my-shop/db.json' : "http://localhost:4000";
 
 //create a resusable  that sends requests to the backend server and returns the response data
 async function request(path, options = {}) {
+
+    //if live fetch db.json
+
+    if (IS_PROD) {
+        const response = await fetch (`${API_URL}/db.json`);
+        const data = await response.json();
+
+        if (path === "/products") return data.products;
+        return data;
+    }
 
     //send request to the server
     const response = await fetch(`${API_URL}${path}`, {
