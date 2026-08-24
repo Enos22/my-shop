@@ -1,0 +1,69 @@
+.login {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.login h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* User/Admin buttons */
+.roles {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.roles button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activeRole {
+    font-weight: bold;
+}
+
+/* Login form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Error */
+.error {
+    text-align: center;
+}
+
+/* Demo credentials */
+.demo {
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
