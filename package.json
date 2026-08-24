@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "homepage": "https://github.com/Enos22/my-shop",
+    "predeploy": "npm run build",
     "server": "json-server --watch db.json --port 4000",
     "deploy": "gh-pages -d dist"
   },
