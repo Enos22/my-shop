@@ -1,0 +1,86 @@
+.checkout {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.checkout h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Order summary */
+.orderSummary {
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Checkout form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input[type="text"],
+.form input[type="tel"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Payment options */
+.paymentOption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paymentOption input {
+    width: auto;
+}
+
+/* Message */
+.message {
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Checkout button */
+.checkoutButton {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Back button */
+.backButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+}
